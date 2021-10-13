@@ -1,0 +1,20 @@
+export const people=[
+    {
+        name:'praveen',
+        age:34,
+        place:'india',
+        hobbies:['sfs','sfs','sfsf']
+    },
+    {
+        name:'praveen1',
+        age:44,
+        place:'india1',
+        hobbies:['sfs2','sfs2','sfsf']
+    },
+    {
+        name:'praveen2',
+        age:24,
+        place:'india1',
+        hobbies:['sfs1','sfs1','sfsf1']
+    }
+]
