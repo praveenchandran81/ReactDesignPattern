@@ -5,15 +5,17 @@ import { AppControlled } from './ControlledAndUnControlled/AppControlled';
 import { LayoutApp } from './LayoutComponents/LayoutApp';
 import { ListItemApp } from './ListAndListItems/ListItemApp';
 import { ModalApp } from './ModalComponents/ModalApp';
+import { AppUOBF } from './OnBoardingFlow/UncontrolledOnBoardingFlow/AppUOBF';
 
 function App() {
   return (
     <div className="App">
       {/* <LayoutApp/> */}
       {/* <ListItemApp/> */}
-      <ModalApp/>
+      {/* <ModalApp/> */}
       {/* <AppUserInfo/> */}
       {/* <AppControlled/> */}
+      <AppUOBF/>
     </div>
   );
 }
