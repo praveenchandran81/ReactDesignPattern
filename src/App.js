@@ -5,6 +5,7 @@ import { AppControlled } from './ControlledAndUnControlled/AppControlled';
 import { LayoutApp } from './LayoutComponents/LayoutApp';
 import { ListItemApp } from './ListAndListItems/ListItemApp';
 import { ModalApp } from './ModalComponents/ModalApp';
+import { AppCOBF } from './OnBoardingFlow/Controlled/AppCOBF';
 import { AppUOBF } from './OnBoardingFlow/UncontrolledOnBoardingFlow/AppUOBF';
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
       {/* <ModalApp/> */}
       {/* <AppUserInfo/> */}
       {/* <AppControlled/> */}
-      <AppUOBF/>
+      {/* <AppUOBF/> */}
+      <AppCOBF/>
     </div>
   );
 }

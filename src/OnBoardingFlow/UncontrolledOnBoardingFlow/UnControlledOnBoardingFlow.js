@@ -20,7 +20,7 @@ export const UnControlledOnBoardingFlow=({children,onFinish})=>{
             setCurrentIndex((prevIndex)=>prevIndex+1)
         }
         else{
-            onFinish(updateData);
+            onFinish({fulldata:updateData,completed:true});
         }
 
         setOnBoardingData(updateData);
