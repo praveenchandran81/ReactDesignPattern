@@ -2,6 +2,8 @@
 import './App.css';
 import { AppUserInfo } from './ContainerComponents/CurrentUserLoaderComponent/App';
 import { AppControlled } from './ControlledAndUnControlled/AppControlled';
+import { AppHOC } from './HOC/AppHOC';
+import { AppHOCAdvanced } from './HOC/HOC-Advanced/AppHOCAdvanced';
 import { LayoutApp } from './LayoutComponents/LayoutApp';
 import { ListItemApp } from './ListAndListItems/ListItemApp';
 import { ModalApp } from './ModalComponents/ModalApp';
@@ -17,7 +19,9 @@ function App() {
       {/* <AppUserInfo/> */}
       {/* <AppControlled/> */}
       {/* <AppUOBF/> */}
-      <AppCOBF/>
+      {/* <AppCOBF/> */}
+      {/* <AppHOC/> */}
+      <AppHOCAdvanced/>
     </div>
   );
 }
